@@ -2,15 +2,15 @@
 
 Ported using Laravel
 
-*Setting up*
+**Setting up**
 
 1. Open a terminal
-2. Run *_cp .env.example .env_*
+2. Run _cp .env.example .env_
 3. Edit the .env file with your own APP_NAME and the database configuration you want to use
-4. Generate you application key using *_php artisan key:generate_*
-5. Run *_composer install_* to install all the missing dependencies
+4. Run _composer install_ to install all the missing dependencies
+5. Generate you application key using _php artisan key:generate_
 
-*WARNING*: If there are some errors make sure you have installed these packages
+**WARNING**: If there are some errors make sure you have installed these packages
 
 - *php-cli*: PHP command line tool
 - *php-dev*: PHP Development Package
