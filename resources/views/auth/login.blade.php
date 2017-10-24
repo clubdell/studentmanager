@@ -7,7 +7,7 @@
         <p>Por favor ingresa tus datos para poder continuar</p>
     </header>
 
-    <form id="login-form" method="post" action="{{ route('login') }}">
+    <form id="signup-form" method="post" action="{{ route('login') }}">
         {{ csrf_field() }}
         <input type="text" name="matricula" placeholder="Ingresa tu matricula" />
         {!! $errors->first('matricula', '<p class="help-block">:message</p>') !!}

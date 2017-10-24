@@ -1098,6 +1098,118 @@
 
 		}
 
+/* PASS Form */
+
+	#pass-form {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		position: relative;
+	}
+
+		#pass-form input[type="text"],
+		#pass-form input[type="password"],
+		#pass-form input[type="email"] {
+			width: 18em;
+		}
+
+		#pass-form > * {
+			margin: 0 0 0 1em;
+		}
+
+		#pass-form > :first-child {
+			margin: 0 0 0 0;
+		}
+
+		@media screen and (max-width: 480px) {
+
+			#pass-form {
+				-moz-flex-direction: column;
+				-webkit-flex-direction: column;
+				-ms-flex-direction: column;
+				flex-direction: column;
+			}
+
+				#pass-form input[type="type"],
+				#pass-form input[type="password"],
+				#pass-form input[type="email"] {
+					width: 100%;
+				}
+
+				#pass-form > * {
+					margin: 1.25em 0 0 0;
+				}
+
+				#pass-form .message {
+					bottom: -1.5em;
+					font-size: 0.9em;
+					height: 1em;
+					left: 0;
+					line-height: inherit;
+					margin-top: 0;
+					position: absolute;
+				}
+
+		}
+
+
+/* bottom Form */
+
+	#bottom-form {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		position: relative;
+	}
+
+		#bottom-form input[type="text"],
+		#bottom-form input[type="password"],
+		#bottom-form input[type="email"] {
+			width: 18em;
+		}
+
+		#bottom-form > * {
+			margin: 0 0 0 1em;
+		}
+
+		#bottom-form > :first-child {
+			margin: 0 0 0 0;
+		}
+
+		@media screen and (max-width: 480px) {
+
+			#bottom-form {
+				-moz-flex-direction: column;
+				-webkit-flex-direction: column;
+				-ms-flex-direction: column;
+				flex-direction: column;
+			}
+
+				#bottom-form input[type="type"],
+				#bottom-form input[type="password"],
+				#bottom-form input[type="email"] {
+					width: 100%;
+				}
+
+				#bottom-form > * {
+					margin: 1.25em 0 0 0;
+				}
+
+				#bottom-form .message {
+					bottom: -1.5em;
+					font-size: 0.9em;
+					height: 1em;
+					left: 0;
+					line-height: inherit;
+					margin-top: 0;
+					position: absolute;
+				}
+
+		}
+		
+
 /* Footer */
 
 	#footer {
