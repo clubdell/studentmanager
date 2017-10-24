@@ -27,6 +27,13 @@ class LoginController extends Controller
         // Validate if it is user's first login
 
         if (Auth::attempt($crendetials)) {
+            $user = Auth::user();
+            $first_login = $user['first_login'];
+
+            if ($first_login === 1) {
+                return redirect()->route('updatepassword');
+            }
+
             return redirect()->route('home');
         }
 
