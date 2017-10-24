@@ -20,6 +20,7 @@ Ported using Laravel
 - *php-xml*: PHP XML Support
 - *php-common*: Common PHP Modules
 - *php-zip*: PHP Zip support
+- *php-mysql*: MySQL driver for PHP
 - *mysql-server*: MySQL Database Server
 - *composer*:  Tool for dependency management in PHP
 - *node*: NodeJS Javascript runtime enviroment
